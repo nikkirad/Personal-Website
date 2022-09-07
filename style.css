@@ -1,0 +1,106 @@
+/*PICTURES*/
+.main_picture1 img {
+    height: 500px;
+    width: 600px;
+    float: right;
+}
+
+.main_picture2 img {
+    height: 500px;
+    width: 600px;
+    float: left;
+}
+
+/*PARAGRAPHS*/
+.main_paragraphs {
+    font-family: "Helvetica", sans-serif;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 800px;
+    margin-bottom: 50px;
+    font-weight: 200;
+    line-height: 1.6;
+}
+
+/*FAVE LISTS*/
+.fave_lists {
+    font-family: "Helvetica", sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 800px;
+    margin-right: 200px;
+    font-weight: 200;
+    line-height: 1.6;
+}
+
+h4 {
+    justify-content: justify;
+    font-family: "Helvetica", sans-serif;
+    color: #dde6d5;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+/*HEADER*/
+.header_stuff {
+    margin-top: 0px;
+    padding-top: 100px;
+    width: 100%;
+    height: 300px;
+    position: relative;
+    background: #dde6d5;
+    top: 0;
+    text-align: left;
+    display: block;
+    align-items: left;
+    justify-content: justify;
+    font-family: "Helvetica", sans-serif;
+    color: #667b68;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+/* Nikki Rad */
+.header_links a{
+    display: inline-block;
+    text-align: right;
+    align-items: center;
+    justify-content: justify;
+    font-family: "Helvetica", sans-serif;
+    color: #667b68;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+/* Links */
+.header_links p {
+    display: inline;
+    text-align: right;
+    align-items: center;
+}
+
+.header_links {
+    text-align: right;
+}
+
+.footer { /* text box */
+    width: 100%;
+    height: 100px;       
+    background: #dde6d5;
+    bottom: 0;
+}
+
+.footer p { /* entire paragraph */
+    display: block;
+    text-align: center;
+}
+
+/* Links */
+.footer a{
+    display: inline-block;
+    justify-content: justify;
+    font-family: "Helvetica", sans-serif;
+    color: #667b68;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
