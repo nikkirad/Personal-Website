@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="green.css" id="page_style"/>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nikki Rad's Personal Website</title>
+    <script src='functions.js'></script>
+</head>
+
+<!-- HEADER -->
+<header>
+    <ul class = "header_stuff">
+        <h1 style ="font-size: 130px">Nikki Rad</h1>
+    </ul>
+    <!-- TOGGLE BUTTON -->
+    <div class = "button">
+        <p id=”output”></p>
+        <button type='button' onclick='pink_mode()'>Pink Mode</button>
+        <button type='button' onclick='green_mode()'>Green Mode</button>
+    </div>
+    <ul class = "header_links">
+        <p><a href="https://people.tamu.edu/~nikkiraddd/index.html">Home </a></p>
+        <p><a href="https://people.tamu.edu/~nikkiraddd/portfolio.html">Portfolio </a></p>
+        <p><a href="https://people.tamu.edu/~nikkiraddd/qualifications.html">Qualifications </a></p>
+        <p><a href="https://people.tamu.edu/~nikkiraddd/service.html">Service</a></p>
+    </ul>
+</header>
+
+<body>
+        <p>
+        <div class = "intern_row">
+            <div class = "intern_col">
+                <img src="Pictures/hpe/IMG_3407.jpg" width = "400px" height = "400px"> </img>
+            </div>
+            <div class = "intern_col" >
+                <img src="Pictures/hpe/IMG_3442.jpg" width = "400px" height = "400px"> </img>
+            </div>
+            <div class = "intern_col">
+                <img src="Pictures/hpe/IMG_3914.jpg" width = "400px" height = "400px"> </img>
+            </div>
+            <div class = "intern_col">
+                <img src="Pictures/hpe/IMG_4640.jpg" width = "400px" height = "400px"> </img>
+            </div>
+        </div>
+        <div class = "portfolio_paragraphs">
+            <h4> Internship Experience </h4>
+            This past Summer, I worked at Hewlett-Packard Enterprise (HPE) as a Software Development Engineer Intern (SDE) under the 
+            High-Performance Computing and Artificial Intelligence Business unit. I was on the Chapel team which is a team consisting of ~20 people
+            responsible for creating an open-source parallel programming language known as Chapel. You can learn more about Chapel here.
+            <br>
+            <br>
+            My task specifically was to work on the implementation of the “unstable” keyword in the language's modules and compiler. The "unstable"
+            keyword (denoted as @unstable in the language) displays if a symbol in the Chapel language may misbehave or is subject to change in the future. 
+            This feature is mostly useful to the Chapel developers, as it allows them to better organize the language as they continue to develop it. This effort
+            took 13 weeks and over 1000 lines of code for its design, tests, and implementation.
+            <br>
+        </p>
+    </div>
+    
+    <div class = "projects">
+        <p>
+            <h4> Projects </h4>
+            <h3> Clef Playlist Sharing </h3>
+            <br>
+            <h2> HowdyHack, Texas A&M University </h2>
+            <br>
+            Utilized Spotify and Shazam APIs to develop a Python program that serves as a bridge between popular music streaming platforms, allowing users to 
+            share playlists from different applications.
+            <br>
+            <br>
+            <br>
+
+            <h3> MBTI Quiz Website </h3>
+            <br>
+            <h2> Aggie Women in Computer Science Code Writing Club, Texas A&M University </h2>
+            <br>
+            Developed a Meyers-Briggs Type Indicator quiz website using HTML and Python.
+            <br>
+            <br>
+            <br>
+
+            <h3> Creating Twin Primes & Hexagon Crosses GUI </h3>
+            <br>
+            <h2> CSCE 314, Texas A&M University </h2>
+            <br>
+            Used Java and JavaFX to create a GUI that displays and creates a text file containing a user-inputted amount of twin primes. 
+            <br>
+            <br>
+            <br>
+
+        </p>
+    </div>
+
+    <div class = "portfolio_paragraphs">
+        <p>
+            <h4> Coursework Experience </h4>
+            CSCE 121: Program Design & Concepts
+            <br>
+            CSCE 181: Introduction to Computing
+            <br>
+            CSCE 221: Data Structures and Algorithms
+            <br>
+            CSCE 222: Discrete Structures for Computing
+            <br>
+            CSCE 312: Computer Organization
+            <br>
+            CSCE 314: Programming Languages
+            <br>
+            CSCE 313: Introduction to Computer Systems
+            <br>
+            CSCE 315: Programming Studio
+            <br>
+            CSCE 421: Machine Learning
+            <br>
+        </p>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+<footer>
+    <div class = "footer">
+        <p>
+            <br>
+            <br>
+            <a class = "icon" href="https://www.instagram.com/nikkiraddd/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+            <a class = "icon" href="https://twitter.com/nikkiraddd/" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a>
+            <a class = "icon" href="https://www.linkedin.com/in/nikki-rad/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+            <a class = "icon" href="https://github.com/nikkirad" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+            <a class = "icon" href="mailto:nikkiraddd@tamu.edu" target="_blank"><ion-icon name="mail-outline"></ion-icon></a>
+        </p>
+    </div>
+</footer>
+</html>

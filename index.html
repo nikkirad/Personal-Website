@@ -1,50 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="green.css" id="page_style"/>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nikki Rad's Personal Website</title>
+    <script src='functions.js'></script>
 </head>
+<!-- HEADER -->
 <header>
     <ul class = "header_stuff">
-        <h1 style ="font-size: 150px">Nikki Rad</h1>
+        <h1 style ="font-size: 130px">Nikki Rad</h1>
     </ul>
+    <!-- TOGGLE BUTTON -->
+    <div class = "button">
+        <p id=”output”></p>
+        <button type='button' onclick='pink_mode()'>Pink Mode</button>
+        <button type='button' onclick='green_mode()'>Green Mode</button>
+    </div>
     <ul class = "header_links">
-        <p><a href="url">Home</a></p>
-        <p><a href="url">Portfolio</a></p>
-        <p><a href="url">Projects</a></p>
-        <p><a href="url">Service</a></p>
+        <p><a href="https://people.tamu.edu/~nikkiraddd/index.html">Home </a></p>
+        <p><a href="https://people.tamu.edu/~nikkiraddd/portfolio.html">Portfolio </a></p>
+        <p><a href="https://people.tamu.edu/~nikkiraddd/qualifications.html">Qualifications </a></p>
+        <p><a href="https://people.tamu.edu/~nikkiraddd/service.html">Service</a></p>
     </ul>
 </header>
 
-<body style = "background-color: #a3b899">
+<div class = divider1>
+
+<!-- INTRODUCTION + ABOUT ME PARAGRAPHS -->
+    <div class = "main_paragraphs">
+        <h4> Welcome! </h4>
+        <p>
+            Hello! Welcome to my personal website. Here you can learn more about me, my profession and technical experience, and my involvement in my communities. 
+            This website was written by me using HTML, JavaScript, and CSS, and there is even a toggle button in the top right corner that allows you to see this website in a different CSS style. This website is one of the projects 
+            I have to do in a class I am taking right now called CSCE 315 - Programming Studio.
+            <br>
+            <br>
+            I am a junior (c/o '24) Computer Science major and Statistics minor at Texas A&M University, but I was born and raised in Sugar Land, Texas, which is located in the greater Houston area. 
+            I attended Clements High School and graduated in 2020 during the pandemic which was actually when I heavily considered my options as a future undergrad student and ended up deciding to pursue Mechanical Engineering. 
+            During my freshman year in college, however, as I was applying through the Entry-To-A-Major process, I decided that programming is where my passions lie and changed my academic path to Computer Science instead. 
+            This was one of the best decisions I have ever made in my life. Now, here I am starting my third year in the major and have already accomplished many things I never could have dreamed of. I recently completed my Summer internship with Hewlett-Packard Enterprise 
+            as a Software Developer Intern, which you can read more about in the portfolio tab, and I am both the President of Aggie Women in Computer Science (AWICS) and a member of the Society of Women Engineers 
+            (SWE) organizations here at Texas A&M. I also like to help my community in both the College Station and Sugar Land areas, which you can learn more about in the Service tab. 
+            <br>
+            <br> 
+            I hope this website gives you ample information about me, but if it doesn't, you can always check out my social media handles (at the bottom of every page) or just email me. I hope you enjoy reading through my website 
+            as much as I had making it!
+        </p>
+    </div>
+
 <!-- FIRST PICTURE -->
     <div class = "main_picture1">
         <img src="Pictures/negien+nik.jpg" alt="Me!" style = "object-position: left;"> </img>
     </div>
 
-<!-- INTRODUCTION + ABOUT ME PARAGRAPHS -->
-    <div class = "main_paragraphs">
-        <p>
-            Hello! Welcome to my personal website. Here you can learn more about me, my portfolio, where you can learn more about my experiences, resume, projects, and service. This website was written by me using HTML and CSS. 
-            There is even a toggle button in the top right corner that allows you to see this website in a different CSS style.
-            <br>
-            <br>
-            I am a junior (c/o '24) Computer Science major and Statistics minor at Texas A&M University, but I was born and raised in Sugar Land, Texas, which is located in the greater Houston area. 
-            I attended Clements High School and graduated in 2020 during the pandemic. It was actually during this time where I heavily considered my options as a future undergrad student and decided to pursue Mechanical Engineering. 
-            However, during my freshman year in college, I decided that programming is where my passions lie and changed my academic path to pursue Computer Science instead. This was one of the best decisions I've made in my life.
-            <br>
-            <br>
-            Now, here I am starting my third year in the major and have already accomplished many things I never could have dreamed of. I recently completed my Summer internship with Hewlett-Packard Enterprise 
-            as a Software Developer Intern, which you can read more about in the porfolio tab, and I am both the president of Aggie Women in Computer Science (AWICS) and a member of the Society of Women Engineers 
-            (SWE) organizations here at Texas A&M. I also like to help my community in both the College Station and Sugar Land areas, which you can learn more about in the service tab. 
-            <br>
-            <br> 
-        </p>
-    </div>
+</div>
 
+<div class = divider2>
 <!-- SECOND PICTURE -->
 <div class = "main_picture2">
     <img src="Pictures/me2.jpeg" alt="Me again!"> </img>
@@ -54,38 +68,49 @@
     <div class = "fave_lists">
         <p>
             <h4> Favorites List </h4>
-            * Movie: Black Swan (2010) dir. Darron Aronofsky
-            <br>
-            * Song: West Coast by Lana Del Rey
-            <br>
-            * Food: Pad Kee Mao
-            <br>
-            * Color: Green (can you tell?)
-            <br>
-            * Show: Game of Thrones
-            <br>
-            * Sport: Formula 1
-            <br>
-            * F1 Team/Driver: Mclaren/Carlos Sainz
-            <br>
-            * Book: 1984 by George Orwell
+            <ul style= "list-style-type:circle">
+                <li> Movie: Black Swan (2010) dir. Darron Aronofsky </li>
+                <br>
+                <li> Song: West Coast by Lana Del Rey </li>
+                <br>
+                <li> Food: Pad Kee Mao </li>
+                <br>
+                <li> Color: Green (can you tell?) </li>
+                <br>
+                <li> Show: Game of Thrones </li>
+                <br>
+                <li> Sport: Formula 1 </li>
+                <br>
+                <li> F1 Team/Driver: Mclaren/Carlos Sainz </li>
+                <br>
+                <li> Book: 1984 by George Orwell </li>
+                <br>
+                <li> Social Media: Twitter </li>
+            </ul>
         </p>
+    </div>
+</div>
+    <div class = "hobbies">
         <p>
             <br>
             <h4> Things I Like To Do/Hobbies </h4>
-            * Music is a big passion of mine, I have been in choir and played piano for most of my life, and recently I've picked up the bass guitar. I also listen to a lot of music. Check out my Spotify!
-            <br>
-            * I try to travel as often as I can. Of course, as a student this can be difficult, but whenever I get the chance I love to visit new places and try out new things. Earlier this year, I went to Washington D.C. with a couple friends!
-            <br>
-            * I am a huge cinephile and love to watch and review any type of movie. My favorite genre, however, is definitely psychological thrillers. Check out my Letterboxd!
-            <br> 
-            * During the pandemic, I picked up cake decorating.
-            <br>
-            * I figure skated for 5 years.
-            <br>
-            <br>
+                <ul style= "list-style-type:circle">
+                <li> Music is a big passion of mine, I have been in choir and played piano for most of my life, and recently I've picked up the bass guitar and songwriting. I also listen to a lot of music. Check out my Spotify! </li>
+                <br>
+                <li> I try to travel as often as I can. Of course, as a student this can be difficult, but whenever I get the chance I love to visit new places and try out new things. Earlier this year, I went to Washington D.C. with a couple friends! </li>
+                <br>
+                <li> I am a huge cinephile and love to watch and review any type of movie. My favorite genre, however, is definitely psychological thrillers. Check out my Letterboxd! </li>
+                <br> 
+                <li> During the pandemic, I picked up cake decorating. </li>
+                <br>
+                <li> I figure skated for 5 years. </li>
+                <br>
+                <li> I am pretty good at trivia and crossword puzzles! </li>
+            </ul>
         </p>
     </div>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 
 <footer>
@@ -93,11 +118,11 @@
         <p>
             <br>
             <br>
-            <a href="https://www.instagram.com/nikkiraddd/">Instagram</a>  | 
-            <a href="https://twitter.com/nikkiraddd/">Twitter</a>  | 
-            <a href="https://www.linkedin.com/in/nikki-rad/">Linkedin</a> | 
-            <a href="https://github.com/nikkirad">Github</a>  | 
-            <a href="mailto:nikkiraddd@tamu.edu">Email</a>
+            <a class = "icon" href="https://www.instagram.com/nikkiraddd/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+            <a class = "icon" href="https://twitter.com/nikkiraddd/" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a>
+            <a class = "icon" href="https://www.linkedin.com/in/nikki-rad/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+            <a class = "icon" href="https://github.com/nikkirad" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+            <a class = "icon" href="mailto:nikkiraddd@tamu.edu" target="_blank"><ion-icon name="mail-outline"></ion-icon></a>
         </p>
     </div>
 </footer>

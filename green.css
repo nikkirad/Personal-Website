@@ -1,0 +1,280 @@
+body {
+    top: 400px;
+    padding-top: 300px;
+}
+
+.divider1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+}
+
+.divider2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+}
+
+/*PICTURES*/
+.main_picture1 img {
+    height: 500px;
+    width: 600px;
+    margin-right: 100px;
+    margin-left: 100px;
+    align-items: center;
+}
+
+.main_picture2 img {
+    height: 500px;
+    width: 600px;
+    margin-left: 100px;
+    margin-right: 100px;
+    align-items: center;
+}
+
+/*PARAGRAPHS*/
+.main_paragraphs {
+    font-family: "Helvetica", sans-serif;
+    margin-left: 100px;
+    text-align: center;
+    font-weight: 200;
+    line-height: 1.6;
+}
+
+/*FAVE LISTS*/
+.fave_lists {
+    font-family: "Helvetica", sans-serif;
+    text-align: center;
+    margin-top: 0;
+    margin-right: 75px;
+    font-weight: 200;
+    line-height: .8;
+}
+
+.hobbies {
+    font-family: "Helvetica", sans-serif;
+    text-align: center;
+    font-weight: 200;
+    line-height: 1.2;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+h4 {
+    font-family: "Helvetica", sans-serif;
+    color: #dde6d5;
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    line-height: 1.2;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*HEADER*/
+header {
+    background: #dde6d5;
+    top: 0;
+    width: 100%;
+    height: 25%;
+    position: fixed; 
+}
+
+/* Nikki Rad */
+.header_stuff {
+    margin-top: 0px;
+    height: 20%;
+    top: 0;
+    text-align: left;
+    display: block;
+    align-items: left;
+    justify-content: justify;
+    font-family: "Helvetica", sans-serif;
+    color: #667b68;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+/*BUTTON*/
+.button {
+    text-align: right;
+    padding-right: 30px;
+}
+
+/* Links */
+.header_links a{
+    padding-top: 5px;
+    padding-right: 30px;
+    display: inline-block;
+    text-align: right;
+    align-items: center;
+    justify-content: justify;
+    font-family: "Helvetica", sans-serif;
+    color: #667b68;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-decoration: none;
+    transition-duration: .5s; 
+}
+
+.header_links p {
+    display: inline;
+    text-align: right;
+    align-items: center;
+}
+
+.header_links {
+    text-align: right;
+}
+
+.header_links a:hover {
+    color: #f8d3c5;
+}
+
+/* FOOTER */
+.footer { /* text box */
+    width: 100%;
+    height: 100px;       
+    background: #dde6d5;
+    bottom: 0;
+}
+
+.footer p { /* entire paragraph */
+    display: block;
+    text-align: center;
+}
+
+/* SOCIAL MEDIA ICONS*/
+.footer a{
+    display: inline-block;
+    justify-content: justify;
+}
+
+.icon {
+    color: #667b68;
+    transition: color 0.2s;
+    margin: 0 25px;
+    font-size: 30px;
+    transition-duration: .5s;
+}
+
+.icon:hover {
+    color: #f8d3c5;
+    font-size: 40px;
+}
+
+/* ---------------------- technical portfolio ---------------------- */
+
+.intern_col {
+    flex: 25%;
+    padding: 5px;
+    margin: 15px;
+
+}
+
+.intern_row {
+    display: flex;
+}
+
+.portfolio_paragraphs {
+    font-family: "Helvetica", sans-serif;
+    text-align: center;
+    margin-left: 450px;
+    margin-right: 450px;
+    margin-bottom: 50px;
+    font-weight: 200;
+    line-height: 1.6;
+}
+
+.projects {
+    font-family: "Helvetica", sans-serif;
+    text-align: center;
+    margin-left: 450px;
+    margin-right: 450px;
+    margin-bottom: 50px;
+    font-weight: 200;
+    line-height: 1.6;
+}
+
+h3 {
+    font-family: "Helvetica", sans-serif;
+    color: #667b68;
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1;
+}
+
+h2 {
+    font-family: "Helvetica", sans-serif;
+    color: #dde6d5;
+    font-size: 15px;
+    letter-spacing: 2px;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1;
+}
+
+/* ---------------------- qualifications ---------------------- */
+.grid_list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+}
+
+.techskills_list {
+    font-family: "Helvetica", sans-serif;
+    text-align: center;
+    font-weight: 200;
+    line-height: .5;
+    margin-left: 20%;
+}
+
+.techareas_list {
+    font-family: "Helvetica", sans-serif;
+    text-align: center;
+    font-weight: 200;
+    line-height: 1.6;
+    margin-right: 20%;
+}
+
+.future_goals {
+    font-family: "Helvetica", sans-serif;
+    text-align: center;
+    margin-left:  20%;
+    margin-right: 20%;
+    margin-bottom: 50px;
+    font-weight: 200;
+    line-height: 1.6;
+}
+
+/* ---------------------- service ---------------------- */
+.servgrid_list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.volunteering {
+    font-family: "Helvetica", sans-serif;
+    text-align: center;
+    font-weight: 200;
+    line-height: 1.6;
+    margin-left: 16%;
+}
+
+.aid {
+    font-family: "Helvetica", sans-serif;
+    text-align: center;
+    font-weight: 200;
+    line-height: 1.6;
+    margin-right: 16%;
+}
+
+.servicepics {
+    margin: 35px;
+
+}
